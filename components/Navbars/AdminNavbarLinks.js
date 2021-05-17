@@ -70,12 +70,12 @@ export default function AdminNavbarLinks() {
         color={size.width > 959 ? "transparent" : "white"}
         justIcon={size.width > 959}
         simple={!(size.width > 959)}
-        aria-label="Dashboard"
+        aria-label="Home"
         className={classes.buttonLink}
       >
         <Dashboard className={classes.icons} />
         <Hidden mdUp implementation="css">
-          <p className={classes.linkText}>Dashboard</p>
+          <p className={classes.linkText}>Home</p>
         </Hidden>
       </Button>
       <div className={classes.manager}>
